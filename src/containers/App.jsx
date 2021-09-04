@@ -5,6 +5,7 @@ import  Projects from '../components/Projects';
 import Testimonios  from '../components/Testimonios';
 import Contacto from '../components/Contacto';
 import {Navbar} from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 
@@ -21,10 +22,12 @@ export const App = () => {
     return (
         <DivGeneral>
             <Navbar/>
-            <About />
-            <Projects></Projects>
-            <Testimonios></Testimonios>
-            <Contacto></Contacto>
+            <About id = "hola" />
+            <Projects id = "projects"/>
+            <Testimonios id = "testimonios"/>
+            <Contacto id = "contacto"/>
+
+             <Footer/>
 
         </DivGeneral>
     )

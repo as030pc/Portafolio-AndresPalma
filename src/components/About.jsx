@@ -12,7 +12,7 @@ const Block = styled.div`
 `
 const About = () => {
     return(
-        <AboutS>
+        <AboutS id = "hola">
              <Block>
                 <Title> Hola a Todos </Title>
                 <Title> Soy Andres Palma </Title>

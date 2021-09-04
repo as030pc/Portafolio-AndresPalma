@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#contacto {
+    
+    background: linear-gradient(135deg, #837ad1 0%, #5169d1 100%);
+}
+
+#contacto form {
+    margin: 40px 410px 40px 410px;
+    background:black;
+    text-align: center;
+    
+
+}
+
+.footer {
+    display:flex;
+    height: 145px;
+    text-align: center;
+}
+
+
+
+.logo-footer {
+    width: 83px;
+    height: 49px;
+
+}
+
+.footer p {
+    margin-top: 56px;
+    margin-left: 350px;
+    
+}
+.footer a {
+    margin-top: 56px;
+    margin-left:25px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.testimonios-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonios-div img {
+    border-radius: 100%;
+    width:50px;
+    height:50px;
+    
+
+}
+
+.testimonios-div p {
+    padding: 50px;
+    text-align: justify;
+
+}
+
+#testimonios {
+    margin:50px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+#contacto {
+    text-align: center;
+    height: 600px;
+
+}
+
+
+
+.parteAbajo {
+    background-color: #5169d1;
+    display: block;
+    color:black;
+    margin:40px;
+}
+
+#projects {
+    filter:alpha(opacity=60);
+    padding:50px;
+    font-family: Lora;
+    font-style: normal;
+    color:black;
+    font-weight: normal;
+    font-size: 24px;
+    background-color: #5169d1;
+    
+}
+
+#projects h1 {
+    font-size: 50px;
+}
+
+#projects img {
+    width:400px;
+}
+
+#projects button {
+    background-color: black;
+    color:aliceblue;
+}

@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AppRouter from './router/AppRouter';
 
 //referecia al componente About
 import {App} from './containers/App';
@@ -8,6 +9,6 @@ import {App} from './containers/App';
 
 
 ReactDOM.render(
-    <App />, //Lo que quiero mostrar
+    <AppRouter/>, //Lo que quiero mostrar
     document.getElementById('root') // y donde lo quiero mostrar
 )

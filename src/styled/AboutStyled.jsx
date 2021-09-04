@@ -23,13 +23,14 @@ const AboutImg = styled.img`
 
 const AboutTitle = styled.h1 `
 color: white;
-font-family: Nunito;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 64px;
 line-height: 80px;
 margin-left:72px;
 padding:0px;
+
 
 
 
